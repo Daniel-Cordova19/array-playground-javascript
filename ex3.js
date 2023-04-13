@@ -20,8 +20,9 @@
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
 
-for(let i=0; i<=muchos_peces.length; i++) {
+for(let i=0; i<muchos_peces.length; i++) {
     let siguiente_pez = muchos_peces[i]
     console.log("Pez siguiente: " + siguiente_pez)
 }
 
+// Teniendo en cuenta la explicación introductoria al ejercicio, los arrays inician desde cero, y ya que tenemos  4 parametros en la variable muchos_peces ("Dory", "Nemo", "Shipho", "Estrella"), al indicar que (i <= muchos_peces.length) estamos forzando a que el bucle se ejecute hasta igualar el valor de 4 partiendo de cero, Pero indicando solo el signo de mejor que (i < muchos_peces.length), nos aseguramos que el bucle se cumpla solo hasta que (i) sea menor que los 4 indices que conforman la variable muchos_peces.
