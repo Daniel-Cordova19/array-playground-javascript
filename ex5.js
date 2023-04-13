@@ -20,3 +20,8 @@ console.log(muchos_peces.includes("Pepitillo"))
  * CONTESTA: ¿Por qué el primer console log arroja el valor "true" y el segundo arroja el valor "false"?
  * CONTESTA: ¿Que TIPO de dato devuelve la función 'includes' (number, string, boolean o array)? 
  */
+
+
+/* Respuesta 1: cuando usamos la función .includes preguntamos si la variable contiene algun elemento en concreto, en este caso preguntamos si existe el indice "Nemo", esta es la razón por la que la primera respuesta es true, y la segunda es false ya que "Pepitillo" no existe en esa variable. 
+  Respuesta 2: includes devuelve solo datos boleanos.
+*/
